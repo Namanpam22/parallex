@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parallex {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.p1-img {
+  background-image: url(images/pexels-nate-1036657.jpg);
+  min-height: 500px;
+  height: 100vh;
+}
+.parallex h1 {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.39);
+  font-size: 40px;
+  padding: 0.5rem;
+  letter-spacing: 1rem;
+}
+.main-btn {
+  color: white;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 2px solid white;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+
+.main-btn:hover {
+  background-color: white;
+  color: black;
+}
+.container {
+  background: black;
+  color: white;
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  color: yellow;
+}
+.p2-img {
+  min-height: 400px;
+  background-image: url(images/pexels-burst-374815.jpg);
+}
+.parallex h2 {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.39);
+  letter-spacing: 0.5rem;
+  padding: 1rem;
+}
+.p3-img {
+  background-image: url(images/pexels-burst-374870.jpg);
+  height: 100vh;
+}
